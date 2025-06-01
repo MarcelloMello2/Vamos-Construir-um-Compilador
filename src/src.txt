@@ -1,0 +1,9 @@
+ var b1
+
+b1 = 11
+
+if B1=13
+   WriteLn(B1)
+else
+   WriteLn(2)
+endif

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <General>
+      <Flags>
+        <CompatibilityMode Value="True"/>
+      </Flags>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <CommandLineParams Value="T:/Data7AdvancedDsv-First/src/plataforma/Vamos Construir um Compilador/TINY14E/src.txt"/>
+      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <CommandLineParams Value="T:/Data7AdvancedDsv-First/src/plataforma/Vamos Construir um Compilador/TINY14E/src.txt"/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="SynEdit"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="tiny_ide.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TINY_IDE"/>
+        <EditorIndex Value="2"/>
+        <CursorPos Y="14"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uEdit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmEdit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="102"/>
+        <CursorPos X="35" Y="135"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="uEdit.lfm"/>
+        <ComponentName Value="frmEdit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:/LazarusIDE/v4.0/win64/components/synedit/syneditlines.pas"/>
+        <UnitName Value="SynEditLines"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="150"/>
+        <CursorPos Y="171"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:/LazarusIDE/fpc/sources/fpc-source/packages/fcl-process/src/processbody.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="200"/>
+        <CursorPos X="14" Y="222"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="13" HistoryIndex="12">
+      <Position1>
+        <Filename Value="uEdit.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="C:/LazarusIDE/v4.0/win64/components/synedit/syneditlines.pas"/>
+        <Caret Line="171" TopLine="134"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uEdit.pas"/>
+        <Caret TopLine="64"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uEdit.pas"/>
+        <Caret Line="81" Column="35" TopLine="64"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uEdit.pas"/>
+        <Caret Line="42" Column="96" TopLine="19"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uEdit.pas"/>
+        <Caret Line="28" Column="86" TopLine="17"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uEdit.pas"/>
+        <Caret Line="23" Column="94" TopLine="10"/>
+      </Position7>
+      <Position8>
+        <Filename Value="tiny_ide.lpr"/>
+        <Caret Line="15" Column="53"/>
+      </Position8>
+      <Position9>
+        <Filename Value="tiny_ide.lpr"/>
+        <Caret Line="11"/>
+      </Position9>
+      <Position10>
+        <Filename Value="tiny_ide.lpr"/>
+        <Caret Line="12"/>
+      </Position10>
+      <Position11>
+        <Filename Value="tiny_ide.lpr"/>
+        <Caret Line="13"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uEdit.pas"/>
+        <Caret Line="74" Column="59" TopLine="57"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uEdit.pas"/>
+        <Caret Line="120" Column="60" TopLine="92"/>
+      </Position13>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="TINY_IDE"/>
+    </Target>
+    <SearchPaths>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+    </Linking>
+  </CompilerOptions>
+</CONFIG>
